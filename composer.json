@@ -1,0 +1,14 @@
+{
+    "name": "jens1o/php-utils",
+    "description": "Provides useful classes for speed-up php development",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jens1o",
+            "email": "jenshausdorf@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
