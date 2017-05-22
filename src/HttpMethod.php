@@ -33,7 +33,7 @@ interface HttpMethod {
     public const PUT = 'PUT';
 
     /**
-     * Deletes a resource
+     * Delete a resource
      */
     public const DELETE = 'DELETE';
 
