@@ -16,6 +16,7 @@ class PasswordUtil {
      * Returns a salt for `bcrypt()`
      *
      * @return string
+     * @deprecated 7.0
      */
     public static function generateSalt(): string {
         return strtr(base64_encode(mcrypt_create_iv(16, MCRYPT_DEV_URANDOM)), '+', '.');
