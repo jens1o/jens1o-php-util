@@ -9,6 +9,7 @@ namespace jens1o\util;
  * @license    MIT License
  * @package    jens1o
  * @subpackage util
+ * @since 0.0.1
  */
 interface HttpMethod {
 
