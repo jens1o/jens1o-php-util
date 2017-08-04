@@ -32,7 +32,7 @@ function str_rot(string $s, int $n = 13): string {
 
     // preserve values
     if($n < 0) $n += 26;
-    // prefer php original implementation in c
+    // prefer php original implementation in C
     if($n === 13) return \str_rot13($s);
 
     $rep = \substr($letters, $n * 2) . \substr($letters, 0, $n * 2);

@@ -38,4 +38,16 @@ interface HttpMethod {
      */
     public const DELETE = 'DELETE';
 
+    /**
+     * Holds all available http methods
+     * @since 0.4.0
+     */
+    public const ALL = [
+        HttpMethod::GET,
+        HttpMethod::POST,
+        HttpMethod::PATCH,
+        HttpMethod::PUT,
+        HttpMethod::DELETE
+    ];
+
 }
